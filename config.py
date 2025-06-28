@@ -2,7 +2,7 @@
 
 import os
 
-SMTP_SERVER = os.getenv("SMTP_SERVER", "smtp-relay.sendinblue.com")
+SMTP_HOST = os.getenv("SMTP_HOST", "smtp-relay.sendinblue.com")
 SMTP_PORT = int(os.getenv("SMTP_PORT", "587"))
 SMTP_USER = os.getenv("SMTP_USER", "908317001@smtp-brevo.com")
 SMTP_PASSWORD = os.getenv("SMTP_PASSWORD", "RM0ymJqpDF417nkg")
